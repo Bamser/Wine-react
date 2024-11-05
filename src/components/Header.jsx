@@ -23,8 +23,12 @@ const Header = () => {
           </ul>
         </nav>
         <div className='header__links'>
-          <a href='#'>винная карта</a>
-          <a href='#'>дегустация</a>
+          <a href='#' className='link'>
+            винная карта
+          </a>
+          <a href='#' className='link'>
+            дегустация
+          </a>
         </div>
       </div>
     </div>
